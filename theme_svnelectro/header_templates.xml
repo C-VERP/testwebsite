@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="svnelectro_header_cta" inherit_id="website.header" name="SvN Header CTA">
+    <xpath expr="//ul[contains(@class,'navbar-nav')][1]" position="inside">
+      <li class="nav-item d-none d-lg-block">
+        <a class="btn sv-btn-primary ms-lg-2" href="/contact">Contacteer ons</a>
+      </li>
+    </xpath>
+  </template>
+</odoo>

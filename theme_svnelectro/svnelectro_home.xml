@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <!-- Hero snippet -->
+  <template id="svnelectro_hero_block" name="SvN Hero">
+    <section class="sv-hero o_container_small my-3" data-snippet="svnelectro_hero_block" data-name="SvN Hero">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h1>Elektriciteit & HVAC Installaties in Vlaanderen</h1>
+          <p>Betrouwbare installaties voor particulieren en bedrijven. Van elektrische werken tot complete airco systemen — vakkundig uitgevoerd.</p>
+          <div class="sv-cta">
+            <a href="/contact" class="btn sv-btn-primary">Vraag een offerte aan</a>
+            <a href="tel:+32000000000" class="btn sv-btn-ghost">Bel ons</a>
+          </div>
+        </div>
+        <div class="col-lg-5 mt-3 mt-lg-0">
+          <div class="ratio ratio-16x9 rounded-2 overflow-hidden" style="background:linear-gradient(120deg, rgba(255,255,255,.12), rgba(255,255,255,.02)); border:1px solid rgba(255,255,255,.18)"></div>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <!-- Services snippet -->
+  <template id="svnelectro_services" name="SvN Services">
+    <section class="sv-section o_container my-4" data-snippet="svnelectro_services" data-name="SvN Services">
+      <div class="text-center sv-title">
+        <h2>Onze Diensten — Volledig Aanbod</h2>
+        <p class="text-muted">Van zekeringkasten en netwerkkabels tot laadpalen, airco en warmtepompen.</p>
+      </div>
+      <div class="sv-cards">
+        <div class="sv-card">
+          <h3>Vernieuwing zekeringkasten</h3>
+          <p>Veiligheid en betrouwbaarheid volgens AREI-normen.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Huishoudelijke Elektriciteit</h3>
+          <p>Vernieuwen, keuren en technisch nazicht.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Airconditioning</h3>
+          <p>Energiezuinig koelen en verwarmen, professioneel geplaatst.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Warmtepompen</h3>
+          <p>Duurzaam verwarmen met lucht-water oplossingen.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Thuisbatterijen</h3>
+          <p>Opslaan en slim gebruiken van duurzame energie.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Laadpalen</h3>
+          <p>Slim laden met load balancing en app-bediening.</p>
+        </div>
+        <div class="sv-card">
+          <h3>Netwerk & Data</h3>
+          <p>Betrouwbare datakabeling en rack-afwerking.</p>
+        </div>
+      </div>
+    </section>
+  </template>
+
+  <!-- CTA banner snippet -->
+  <template id="svnelectro_cta_banner" name="SvN CTA Banner">
+    <section class="o_container my-5" data-snippet="svnelectro_cta_banner" data-name="SvN CTA">
+      <div class="sv-cta-banner">
+        <div>
+          <h3 class="m-0">Klaar om te starten?</h3>
+          <p class="m-0" style="opacity:.9">Vraag vandaag nog een offerte of boek een afspraak.</p>
+        </div>
+        <div class="d-flex gap-2">
+          <a href="/contact" class="btn sv-btn-primary">Contacteer ons</a>
+          <a href="/appointment" class="btn sv-btn-ghost">Boek een afspraak</a>
+        </div>
+      </div>
+    </section>
+  </template>
+</odoo>
